@@ -1,0 +1,126 @@
+.signupContainer {
+  padding-top: 2rem;
+  background: url("../../assets/Images/forest-route-image.jpg") no-repeat center
+    center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signupCard {
+  width: 90%;
+  max-width: 500px;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signupTitle {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #228b22;
+  text-align: center;
+}
+
+.signupForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.MuiTextField-root {
+  margin-bottom: 1.5rem;
+}
+
+.inputField {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.buttonContainer {
+  display: flex;
+  width: 100%;
+  margin-top: 1.5rem;
+  justify-content: space-between;
+}
+
+.backButton,
+.nextButton,
+.submitButton {
+  font-size: 1rem;
+  padding: 0.8rem 1.5rem;
+  border: 0;
+  border-radius: 5px;
+}
+
+.backButton {
+  background-color: #d3d3d3;
+  color: #333;
+  margin-right: 1rem;
+}
+
+.nextButton,
+.submitButton {
+  background-color: #6e4b3a;
+  color: white;
+  margin-left: auto;
+}
+
+.backButton:hover,
+.nextButton:hover,
+.submitButton:hover {
+  background-color: #228b22;
+}
+
+.confirmationBox {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 8px;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.confirmationBox p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.MuiSnackbar-root .MuiAlert-root {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .signupCard {
+    padding: 1.5rem;
+  }
+
+  .signupTitle {
+    font-size: 1.75rem;
+  }
+
+  .buttonContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .backButton,
+  .nextButton,
+  .submitButton {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .signupContainer {
+    background-attachment: unset;
+  }
+}

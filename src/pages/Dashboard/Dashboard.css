@@ -1,0 +1,57 @@
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .appbar {
+    background-color: #1b5e20 !important;
+  }
+  
+  .sidebar-container {
+    margin-top: 64px; 
+  }
+  
+  .sidebar-list {
+    padding: 0;
+  }
+  
+  .sidebar-title {
+    background-color: #388e3c;
+    color: white;
+    padding: 12px 16px;
+    font-weight: bold;
+  }
+  
+  .sidebar-item {
+    padding: 8px 16px;
+    color: #a5d6a7;
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar-item:hover {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .sidebar-icon {
+    margin-right: 10px;
+    color: #a5d6a7;
+  }
+  
+  .content {
+    padding-top: 2rem;
+    background-color: #e0f2f1;
+  }
+  
+  .welcome-message {
+    color: #2e7d32;
+  }
+  
+  .table-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
